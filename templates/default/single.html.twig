@@ -1,0 +1,14 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}My First Admin!{% endblock %}
+
+{% block body %}
+    <div class="container">
+        <img src="{{ vich_uploader_asset(post) }}" class="d-flex mr-3" alt="{{ post.thumbnailFile }}">
+        <h2>{{ post.title }}</h2>
+        <div>Title1: {{ post.content|replace({' ':''}) }}</div>
+    </div>
+
+
+
+{% endblock %}

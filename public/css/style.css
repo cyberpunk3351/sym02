@@ -1,0 +1,15 @@
+.thumbnail {
+    width: 200px;
+}
+
+.media {
+    border-bottom: solid 1px rgba(37, 38, 39, 0.15);
+}
+
+.img-thumbnail {
+    border: none;
+}
+
+a {
+    color: #212529;
+}
